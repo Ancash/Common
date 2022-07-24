@@ -5,12 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.ancash</groupId>
-    <artifactId>Common</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>common</artifactId>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Ancash Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Ancash/Common</url>
+        </repository>
+    </distributionManagement>
+
 
 </project>
