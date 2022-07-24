@@ -6,7 +6,7 @@
 
     <groupId>de.ancash</groupId>
     <artifactId>common</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
